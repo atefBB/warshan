@@ -25,7 +25,16 @@ export function App() {
   }
 
   return (
-    <React.Fragment>
+    <div
+      id="row"
+      style={{
+        height: "100vh",
+        width: "100vw",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+      }}
+    >
       <Document
         file="https://qurancomplex.gov.sa/wp-content/uploads/isdarat/qiraat/warsh39.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
@@ -47,6 +56,6 @@ export function App() {
           Next
         </button>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
