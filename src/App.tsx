@@ -32,7 +32,7 @@ export function App() {
   }, []);
 
   return (
-    <div id="quranContainer" className="mt-4">
+    <div id="quranContainer">
       <Document
         file="https://qurancomplex.gov.sa/wp-content/uploads/isdarat/qiraat/warsh39.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
@@ -42,7 +42,7 @@ export function App() {
           className="PDFPage PDFPageOne"
           renderTextLayer={false}
           renderAnnotationLayer={false}
-          scale={width > 786 ? 1.7 : 0.6}
+          scale={width > 700 ? 1.7 : 0.6}
         />
       </Document>
       <div
