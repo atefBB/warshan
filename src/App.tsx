@@ -8,11 +8,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export function App() {
   const [width, setWidth] = React.useState(1200);
   const [numPages, setNumPages] = React.useState(null);
-  const [pageNumber, setPageNumber] = React.useState(1);
+  const [pageNumber, setPageNumber] = React.useState(4);
 
   function onDocumentLoadSuccess({ numPages }: any) {
     setNumPages(numPages);
-    setPageNumber(1);
+    setPageNumber(4);
   }
 
   function changePage(offset: number) {
