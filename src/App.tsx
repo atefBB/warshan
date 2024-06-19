@@ -36,6 +36,7 @@ export function App() {
       <Document
         file="https://qurancomplex.gov.sa/wp-content/uploads/isdarat/qiraat/warsh39.pdf"
         onLoadSuccess={onDocumentLoadSuccess}
+        loading="سيتم تحميل المصحف إن شاء الله"
       >
         <Page
           pageNumber={pageNumber}
