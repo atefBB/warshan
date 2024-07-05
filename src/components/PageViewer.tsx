@@ -7,13 +7,29 @@ type PropsType = {
 
 export default function PageViewer({ pageNumber, imageUrl }: PropsType) {
   return (
-    <React.Fragment>
-      <h3>Page {pageNumber}</h3>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignContent: "center",
+      }}
+    >
+      <h3 style={{ visibility: "hidden" }}>{pageNumber}</h3>
       <img
         src={imageUrl}
         alt={`Page ${pageNumber}`}
         style={{ width: "100%", height: "auto" }}
       />
-    </React.Fragment>
+      <strong
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignContent: "center",
+        }}
+      >
+        {pageNumber}
+      </strong>
+    </div>
   );
 }
