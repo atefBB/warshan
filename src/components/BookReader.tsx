@@ -1,16 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useSwipeable } from "react-swipeable";
 
 import { PageViewer } from "./PageViewer";
 import { Search } from "./Search";
 import { Bookmark } from "./Bookmark";
 
-const pages = [
-  { imageUrl: "./images/page001.png", text: "Text of page 1" },
-  { imageUrl: "./images/page002.png", text: "Text of page 2" },
-  { imageUrl: "./images/page003.png", text: "Text of page 3" },
-  // Add paths to all your PNG pages and corresponding text
-];
+import { pages } from "./pages";
 
 export function BookReader() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -35,10 +30,12 @@ export function BookReader() {
   return (
     <main {...handlers} style={{ direction: "rtl", touchAction: "pan-y" }}>
       <Search />
-      <PageViewer
-        pageNumber={currentPage + 1}
-        imageUrl={pages[currentPage].imageUrl}
-      />
+      {pages.length > 0 ? (
+        <PageViewer
+          pageNumber={currentPage + 1}
+          imageUrl={pages[currentPage].imageUrl}
+        />
+      ) : null}
       <nav style={{ display: "none" }}>
         <button onClick={goToPreviousPage} disabled={currentPage === 0}>
           {">>"}
