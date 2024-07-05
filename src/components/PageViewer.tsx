@@ -1,11 +1,11 @@
 import React from "react";
 
-type PageViewerProps = {
+type PropsType = {
   pageNumber: number;
   imageUrl: string;
 };
 
-export function PageViewer({ pageNumber, imageUrl }: PageViewerProps) {
+export default function PageViewer({ pageNumber, imageUrl }: PropsType) {
   return (
     <React.Fragment>
       <h3>Page {pageNumber}</h3>

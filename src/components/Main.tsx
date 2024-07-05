@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { lazy, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 
-import { PageViewer } from "./PageViewer";
 import { Search } from "./Search";
 import { Bookmark } from "./Bookmark";
 
 import { pages } from "./pages";
 
-export function BookReader() {
+const  PageViewer = lazy(() => import("./PageViewer"));
+
+export function Main() {
   const [currentPage, setCurrentPage] = useState(0);
 
   function goToNextPage() {

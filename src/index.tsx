@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import { BookReader } from "./components/BookReader";
+import { Main } from "./components/Main";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BookReader />
+    <Main />
   </React.StrictMode>
 );
 
