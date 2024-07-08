@@ -884,10 +884,6 @@ export const images = [
     text: "page 299",
   },
   {
-    imageUrl: "./imgs/3.png",
-    text: "page 3",
-  },
-  {
     imageUrl: "./imgs/30.png",
     text: "page 30",
   },
