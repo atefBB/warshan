@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/warshan/static/css/main.93a0497a.css",
-    "main.js": "/warshan/static/js/main.258d066d.js",
-    "static/js/486.d36c5189.chunk.js": "/warshan/static/js/486.d36c5189.chunk.js",
+    "main.js": "/warshan/static/js/main.c8b2b4a1.js",
+    "static/js/486.3dc0188f.chunk.js": "/warshan/static/js/486.3dc0188f.chunk.js",
     "static/js/453.e9c9e572.chunk.js": "/warshan/static/js/453.e9c9e572.chunk.js",
     "index.html": "/warshan/index.html",
     "main.93a0497a.css.map": "/warshan/static/css/main.93a0497a.css.map",
-    "main.258d066d.js.map": "/warshan/static/js/main.258d066d.js.map",
-    "486.d36c5189.chunk.js.map": "/warshan/static/js/486.d36c5189.chunk.js.map",
+    "main.c8b2b4a1.js.map": "/warshan/static/js/main.c8b2b4a1.js.map",
+    "486.3dc0188f.chunk.js.map": "/warshan/static/js/486.3dc0188f.chunk.js.map",
     "453.e9c9e572.chunk.js.map": "/warshan/static/js/453.e9c9e572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
-    "static/js/main.258d066d.js"
+    "static/js/main.c8b2b4a1.js"
   ]
 }
