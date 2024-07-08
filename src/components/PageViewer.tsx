@@ -18,7 +18,7 @@ export default function PageViewer({ pageNumber, imageUrl }: PropsType) {
       <IonImg
         src={imageUrl}
         alt={`Page ${pageNumber}`}
-        style={{ width: "100%", height: "100vh" }}
+        style={{ width: "100%", height: "100vh", objectFit: "fill" }}
       />
       <strong
         style={{
