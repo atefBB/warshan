@@ -1,4 +1,4 @@
-import React from "react";
+import { IonImg } from "@ionic/react";
 
 type PropsType = {
   pageNumber: number;
@@ -15,7 +15,7 @@ export default function PageViewer({ pageNumber, imageUrl }: PropsType) {
         alignContent: "center",
       }}
     >
-      <img
+      <IonImg
         src={imageUrl}
         alt={`Page ${pageNumber}`}
         style={{ width: "100%", height: "100vh" }}
