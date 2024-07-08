@@ -4,7 +4,7 @@ import { useSwipeable } from "react-swipeable";
 import { Search } from "./Search";
 import { Bookmark } from "./Bookmark";
 
-import { pages } from "./pages";
+import { images as pages } from "./images";
 
 const PageViewer = lazy(() => import("./PageViewer"));
 
