@@ -1,6 +1,7 @@
 # Warshan Quran App
 
 Warshan is the name given by Imam Fafii Almadani to his student Othman Ibn Saaid Almisri that mean a kind of white bird with small foots.
+
 <div direction="rtl">ورشان هو الاسم الذي سمى به اﻹمام نافع المدني تلميذه عثمان بن سعيد المصري، وهو نوع من الطيور أبيض اللون قصير اﻷقدام.</div>
 
 <br /><br /><br />
@@ -49,3 +50,10 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Todos
+
+    - [x] Open on the last opened page
+    - [ ] Search by ayats
+    - [ ] Bookmark a page
+    - [ ] Surats index
