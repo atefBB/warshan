@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/warshan/static/css/main.93a0497a.css",
-    "main.js": "/warshan/static/js/main.4cd67413.js",
+    "main.js": "/warshan/static/js/main.28d56735.js",
     "static/js/486.25c526d6.chunk.js": "/warshan/static/js/486.25c526d6.chunk.js",
     "static/js/453.e9c9e572.chunk.js": "/warshan/static/js/453.e9c9e572.chunk.js",
     "index.html": "/warshan/index.html",
     "main.93a0497a.css.map": "/warshan/static/css/main.93a0497a.css.map",
-    "main.4cd67413.js.map": "/warshan/static/js/main.4cd67413.js.map",
+    "main.28d56735.js.map": "/warshan/static/js/main.28d56735.js.map",
     "486.25c526d6.chunk.js.map": "/warshan/static/js/486.25c526d6.chunk.js.map",
     "453.e9c9e572.chunk.js.map": "/warshan/static/js/453.e9c9e572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93a0497a.css",
-    "static/js/main.4cd67413.js"
+    "static/js/main.28d56735.js"
   ]
 }
