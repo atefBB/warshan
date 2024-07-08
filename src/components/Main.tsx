@@ -41,18 +41,6 @@ export function Main() {
             imageUrl={pages[currentPage].imageUrl}
           />
         ) : null}
-        <nav style={{ display: "none" }}>
-          <button onClick={goToPreviousPage} disabled={currentPage === 0}>
-            {">>"}
-          </button>
-
-          <button
-            onClick={goToNextPage}
-            disabled={currentPage === pages.length - 1}
-          >
-            {"<<"}
-          </button>
-        </nav>
         <Bookmark currentPage={currentPage} />
       </main>
     </IonApp>
