@@ -1,23 +1,35 @@
 {
   "files": {
     "main.css": "/warshan/static/css/main.276a33b4.css",
-    "main.js": "/warshan/static/js/main.217cdc15.js",
+    "main.js": "/warshan/static/js/main.2d84df7c.js",
+    "static/js/486.f7e7c2a4.chunk.js": "/warshan/static/js/486.f7e7c2a4.chunk.js",
     "static/js/653.7ba8486a.chunk.js": "/warshan/static/js/653.7ba8486a.chunk.js",
-    "static/js/806.d7c2c0b8.chunk.js": "/warshan/static/js/806.d7c2c0b8.chunk.js",
+    "static/js/738.27337265.chunk.js": "/warshan/static/js/738.27337265.chunk.js",
     "static/js/923.ad0f195d.chunk.js": "/warshan/static/js/923.ad0f195d.chunk.js",
     "static/js/627.7ee95731.chunk.js": "/warshan/static/js/627.7ee95731.chunk.js",
+    "static/js/938.93de31b3.chunk.js": "/warshan/static/js/938.93de31b3.chunk.js",
+    "static/js/247.09590e44.chunk.js": "/warshan/static/js/247.09590e44.chunk.js",
+    "static/js/82.0ac1a1a4.chunk.js": "/warshan/static/js/82.0ac1a1a4.chunk.js",
+    "static/js/768.5d2ceee3.chunk.js": "/warshan/static/js/768.5d2ceee3.chunk.js",
+    "static/js/834.52766844.chunk.js": "/warshan/static/js/834.52766844.chunk.js",
     "static/js/453.e9c9e572.chunk.js": "/warshan/static/js/453.e9c9e572.chunk.js",
     "index.html": "/warshan/index.html",
     "main.276a33b4.css.map": "/warshan/static/css/main.276a33b4.css.map",
-    "main.217cdc15.js.map": "/warshan/static/js/main.217cdc15.js.map",
+    "main.2d84df7c.js.map": "/warshan/static/js/main.2d84df7c.js.map",
+    "486.f7e7c2a4.chunk.js.map": "/warshan/static/js/486.f7e7c2a4.chunk.js.map",
     "653.7ba8486a.chunk.js.map": "/warshan/static/js/653.7ba8486a.chunk.js.map",
-    "806.d7c2c0b8.chunk.js.map": "/warshan/static/js/806.d7c2c0b8.chunk.js.map",
+    "738.27337265.chunk.js.map": "/warshan/static/js/738.27337265.chunk.js.map",
     "923.ad0f195d.chunk.js.map": "/warshan/static/js/923.ad0f195d.chunk.js.map",
     "627.7ee95731.chunk.js.map": "/warshan/static/js/627.7ee95731.chunk.js.map",
+    "938.93de31b3.chunk.js.map": "/warshan/static/js/938.93de31b3.chunk.js.map",
+    "247.09590e44.chunk.js.map": "/warshan/static/js/247.09590e44.chunk.js.map",
+    "82.0ac1a1a4.chunk.js.map": "/warshan/static/js/82.0ac1a1a4.chunk.js.map",
+    "768.5d2ceee3.chunk.js.map": "/warshan/static/js/768.5d2ceee3.chunk.js.map",
+    "834.52766844.chunk.js.map": "/warshan/static/js/834.52766844.chunk.js.map",
     "453.e9c9e572.chunk.js.map": "/warshan/static/js/453.e9c9e572.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.276a33b4.css",
-    "static/js/main.217cdc15.js"
+    "static/js/main.2d84df7c.js"
   ]
 }
