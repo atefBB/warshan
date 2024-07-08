@@ -1,4 +1,4 @@
-import { lazy, useState } from "react";
+import { lazy, useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import { IonApp, setupIonicReact } from "@ionic/react";
 
@@ -12,7 +12,13 @@ const PageViewer = lazy(() => import("./PageViewer"));
 setupIonicReact();
 
 export function Main() {
-  const [currentPage, setCurrentPage] = useState(0);
+  const lastOpenedPage = localStorage.getItem("currentPage") || 0;
+
+  const [currentPage, setCurrentPage] = useState(Number(lastOpenedPage));
+
+  useEffect(() => {
+    localStorage.setItem("currentPage", String(currentPage));
+  }, [currentPage]);
 
   function goToNextPage() {
     if (currentPage < pages.length - 1) {
