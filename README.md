@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Warshan Quran App
+
+Warshan is the name given by Imam Fafii Almadani to his student Othman Ibn Saaid Almisri that mean a kind of white bird with small foots.
+<div direction="rtl">ورشان هو الاسم الذي سمى به اﻹمام نافع المدني تلميذه عثمان بن سعيد المصري، وهو نوع من الطيور أبيض اللون قصير اﻷقدام.</div>
+
+<br /><br /><br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
