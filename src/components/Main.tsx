@@ -6,7 +6,7 @@ import { Bookmark } from "./Bookmark";
 
 import { pages } from "./pages";
 
-const  PageViewer = lazy(() => import("./PageViewer"));
+const PageViewer = lazy(() => import("./PageViewer"));
 
 export function Main() {
   const [currentPage, setCurrentPage] = useState(0);
