@@ -1,0 +1,23 @@
+.carousel {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel__track {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: calc(100% * 609); /* Adjust for the number of slides */
+}
+
+.carousel__slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel__slide img {
+  width: 100%;
+  display: block;
+}

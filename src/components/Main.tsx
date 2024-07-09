@@ -1,7 +1,6 @@
-import { lazy } from "react";
 import { IonApp, setupIonicReact } from "@ionic/react";
 
-const Page = lazy(() => import("./Page"));
+import { Carousel } from "./Carousel";
 
 setupIonicReact();
 
@@ -9,7 +8,7 @@ export function Main() {
   return (
     <IonApp>
       <main style={{ direction: "rtl", touchAction: "pan-y" }}>
-        <Page />
+        <Carousel />
       </main>
     </IonApp>
   );
