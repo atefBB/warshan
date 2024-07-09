@@ -7,7 +7,7 @@ type PropsType = {
   imageUrl: string;
 };
 
-export default function PageViewer({ pageNumber, imageUrl }: PropsType) {
+export default function Page({ pageNumber, imageUrl }: PropsType) {
   return (
     <div className="container">
       <header className="header"></header>

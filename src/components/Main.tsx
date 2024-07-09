@@ -7,7 +7,7 @@ import { Bookmark } from "./Bookmark";
 
 import { images as pages } from "./images";
 
-const PageViewer = lazy(() => import("./PageViewer"));
+const Page = lazy(() => import("./Page"));
 
 setupIonicReact();
 
@@ -42,7 +42,7 @@ export function Main() {
       <main {...handlers} style={{ direction: "rtl", touchAction: "pan-y" }}>
         <Search />
         {pages.length > 0 ? (
-          <PageViewer
+          <Page
             pageNumber={currentPage + 1}
             imageUrl={pages[currentPage].imageUrl}
           />
