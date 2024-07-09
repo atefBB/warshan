@@ -6,7 +6,7 @@ import { Search } from "./Search";
 
 import { images as pages } from "./images";
 
-import "./styles.css";
+import "./grid.css";
 
 export default function Page() {
   const lastOpenedPage = localStorage.getItem("currentPage") || 0;
